@@ -286,16 +286,16 @@ collections:
 
 # Defaults
 defaults:
-  # _docs
+  # _posts
   - scope:
-      path: ""
-      type: docs
+      path: "category"
+      type: posts
     values:
       layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
+      author_profile: True
+      read_time: True
+      comments: True
+      share: True
       sidebar:
-        nav: "docs"
+        nav: "posts"
         
