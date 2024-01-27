@@ -18,12 +18,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Yuniee's Blog"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Yoonjeong's Blog"
 name                     : "Yoonjeong Kang"
 description              : "An amazing website."
 url                      : "https://y0412j.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "y0412j/y0412j.github.io"
 teaser                   : "/assets/images/leo_circle.png"
 logo                     : "/assets/images/leo_circle.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -105,9 +105,9 @@ analytics:
 # Site Author
 author:
   name             : "Yoonjeong Kang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Texas"
+  avatar           : "/assets/images/leo_circle.png"
+  bio              : "Github.io Blog"
+  location         : "Texas, US"
   email            :
   links:
     - label: "Email"
