@@ -277,16 +277,25 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
-  # _posts
+  # _docs
   - scope:
       path: ""
-      type: posts
+      type: docs
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      sidebar:
+        nav: "docs"
+        
